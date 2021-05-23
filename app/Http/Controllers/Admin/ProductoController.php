@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Exports\ProductoExport;
 use App\Http\Controllers\Controller;
 use App\Models\Categoria;
 use Illuminate\Http\Request;
 use App\Models\Producto;
 use Illuminate\Support\Facades\Storage;
+use Maatwebsite\Excel\Facades\Excel;
+
 class ProductoController extends Controller
 {
    
@@ -100,5 +103,10 @@ class ProductoController extends Controller
     {
         $producto->delete();
         return redirect()->route('admin.productos.index')->with('info','El Producto se elimino con exito');
+    }
+
+    public function export() 
+    {
+        return Excel::download(new ProductoExport, 'productos.xlsx');
     }
 }

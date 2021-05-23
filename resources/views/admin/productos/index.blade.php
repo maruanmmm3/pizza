@@ -11,6 +11,7 @@
 
     <div class="card-header">
       <a class="btn btn-secondary" href="{{route('admin.productos.create')}}">Agregar Productos</a>
+      <a class="btn btn-success" width="10px" href="{{route('productos.export')}}">Exportar EXCEL</a>
 
     </div>
 

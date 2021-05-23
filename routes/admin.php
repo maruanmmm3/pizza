@@ -16,6 +16,7 @@ Route::resource('categorias', CategoriaController::class)->names('admin.categori
 
 Route::resource('producto', ProductoController::class)->names('admin.productos');
 
-
 Route::resource('pedido', PedidoController::class)->names('admin.pedidos');
+
+Route::get('productos.export', [ProductoController::class ,'export'])->name('productos.export');
 

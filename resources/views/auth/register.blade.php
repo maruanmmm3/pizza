@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <img class="hover:grow hover:shadow-lg" src="https://images.vexels.com/media/users/3/172816/list/622edb20a3cc40b67cc099182e52d1b5-diseno-de-logo-de-pizza-club.jpg">
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />

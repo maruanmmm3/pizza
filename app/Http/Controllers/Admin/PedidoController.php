@@ -70,6 +70,7 @@ class PedidoController extends Controller
    
     public function destroy(Pedido $pedido)
     {
-        //
+        $pedido->delete();
+        return redirect()->route('admin.pedidos.index')->with('info','El Pedido se elimino con exito');
     }
 }

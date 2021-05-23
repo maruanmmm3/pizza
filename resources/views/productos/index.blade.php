@@ -263,11 +263,19 @@ Alternatively if you want to just have a single hero
 			Conocenos
 		</a>
 
-            <p class="mt-8 mb-8">This template is inspired by the stunning nordic minamalist design - in particular:
+            <p class="mt-8 mb-8">Nuestro Compromiso:
                 <br>
-                <a class="text-gray-800 underline hover:text-gray-900" href="http://savoy.nordicmade.com/" target="_blank">Savoy Theme</a> created by <a class="text-gray-800 underline hover:text-gray-900" href="https://nordicmade.com/">https://nordicmade.com/</a> and <a class="text-gray-800 underline hover:text-gray-900" href="https://www.metricdesign.no/" target="_blank">https://www.metricdesign.no/</a></p>
+                
 
-            <p class="mb-8">Lorem ipsum dolor sit amet, consectetur <a href="#">random link</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Vitae aliquet nec ullamcorper sit. Nullam eget felis eget nunc lobortis mattis aliquam. In est ante in nibh mauris. Egestas congue quisque egestas diam in. Facilisi nullam vehicula ipsum a arcu. Nec nam aliquam sem et tortor consequat. Eget mi proin sed libero enim sed faucibus turpis in. Hac habitasse platea dictumst quisque. In aliquam sem fringilla ut. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis volutpat est velit egestas dui id. At tempor commodo ullamcorper a. Volutpat commodo sed egestas egestas fringilla. Vitae congue eu consequat ac.</p>
+            <p class="mb-8">Mostra Pizza: Mejores Ingredientes, Mejor Pizza. Eso es lo que nos hace diferentes.
+                El secreto del éxito se asemeja bastante a hacer una mejor pizza… cuanto más empeño pongas, mejor será el resultado. Hoy en día, buscamos la perfección como lo venimos haciendo desde el momento en que inauguramos nuestro primer restaurante hace más de 30 años. Hoy mantenemos el deseo de ser los mejores en preparar nuevos productos y nuevas e innovadoras recetas.
+
+La calidad es esencial para nosotros. Ha sido nuestra base desde la primera pizza que preparamos en nuestro primer local en Jeffersonville, IN, hasta las que hacemos hoy en día en los más de 5,000 restaurantes en 44 países y territorios alrededor del mundo.
+
+Desde nuestra salsa exclusiva, nuestros ingredientes, nuestra masa fresca original e incluso en la caja, invertimos para ofrecerte siempre la mejor pizza.
+
+Sabemos que para ti, no es solo una mejor pizza. Es una reunión familiar, un cumpleaños inolvidable, una celebración de trabajo o simplemente una gran comida. Nuestro objetivo es garantizar que siempre tengas los mejores ingredientes para cada ocasión.
+            </p>
 
         </div>
 
@@ -278,9 +286,11 @@ Alternatively if you want to just have a single hero
             <div class="w-full mx-auto flex flex-wrap">
                 <div class="flex w-full lg:w-1/2 ">
                     <div class="px-3 md:px-0">
-                        <h3 class="font-bold text-gray-900">About</h3>
+                        <h3 class="font-bold text-gray-900">RESPONSABILIDAD</h3>
                         <p class="py-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
+                            Hacemos lo que decimos, cuando decimos que lo haremos.
+
+                            Nos hemos ganado el derecho de llevar a otros a un nivel de responsabilidad superior ya que somos responsables ante nosotros mismos, nuestros clientes y nuestros socios comerciales.
                         </p>
                     </div>
                 </div>
