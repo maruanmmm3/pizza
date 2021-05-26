@@ -30,7 +30,7 @@ class ProductoController extends Controller
    
     public function store(Request $request)
     {
-        /* return Storage::put('productos', $request->file('file')); */
+        /* return Storage::put('public/productos', $request->file('file'));  */
 
         $request->validate([
             'nombre' => 'required',
@@ -45,7 +45,12 @@ class ProductoController extends Controller
         $producto = Producto::create($request->all());
         
         if($request->file('file')){
-            $url = Storage::put('productos', $request->file('file'));
+
+            $imagenes = $request->file('file')->store('public/productos');
+
+            $url = Storage::url($imagenes);
+
+            /* $url = Storage::put('public/productos', $request->file('file')); */
 
             $producto->imagen()->create([
                 'url' => $url
@@ -82,7 +87,9 @@ class ProductoController extends Controller
         ]);
         $producto->update($request->all());
         if ($request->file('file')) {
-            $url = Storage::put('productos', $request->file('file'));
+           /*  $url = Storage::put('productos', $request->file('file')); */
+           $imagenes = $request->file('file')->store('public/productos');
+           $url = Storage::url($imagenes);
             if($producto->imagen){
                 Storage::delete($producto->imagen->url);
 

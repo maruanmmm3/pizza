@@ -134,7 +134,7 @@
               
                   <a href="#">
                       
-                      <img class="hover:grow hover:shadow-lg" src="{{Storage::url($producto->imagen->url)}}">
+                      <img class="hover:grow hover:shadow-lg" src="{{-- {{Storage::url($producto->imagen->url)}} --}}{{asset($producto->imagen->url)}}">
                       <div class="pt-3 flex items-center justify-between">
                           <p class="">{{$producto->nombre}}</p>
                           <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

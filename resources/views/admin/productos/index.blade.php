@@ -36,7 +36,7 @@
                           <td>{{$producto->nombre}}</td>
                           <td>{{$producto->precio}}</td>
                           <td>{{$producto->descripcion}}</td>
-                          <td> <img id="picture" width="70" src="{{Storage::url($producto->imagen->url)}}"></td>
+                          <td> <img id="picture" width="70" src="{{asset($producto->imagen->url)}}"></td>
                           <td width="10px">
                               <a class="btn btn-primary" href="{{route('admin.productos.edit',$producto)}}">
                                   Editar
